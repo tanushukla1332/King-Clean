@@ -1,0 +1,37 @@
+*{
+  font-family: Inter,sans-serif;
+  box-sizing: border-box;
+  margin: 0px ; 
+  padding: 0 ;
+}
+.hed35{
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
+}
+.hed2{
+  font-size: 48px;
+  font-weight: 700;
+   color: #202020;
+   letter-spacing: 1px;
+}
+.hed4{
+  font-size: 25px;
+  font-weight: 400;
+  color: #FFB800;
+}
+.hed5{
+  font-size: 18px;
+  font-weight: 600;
+  color: #131413;
+}
+.para{
+  font-size: 12px;
+  font-weight: 400;
+  color: #131413;
+}
+.hed6{
+  font-size: 15px;
+  font-weight: 500;
+  color: #202020;
+}

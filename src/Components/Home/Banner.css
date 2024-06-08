@@ -1,0 +1,136 @@
+/* Banner Styles */
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .banner-text>p{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .banner-text>h1{
+    font-size: 57px;
+    font-weight: 700;
+  }
+  .se{
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .me{
+    font-size: 55px;
+    font-weight: 700;
+    color: #FFB800;
+
+
+  }
+  .banner-icons {
+    display: flex;
+   justify-content: space-evenly;
+  }
+  
+  .banner-icon {
+  display: flex;
+  align-items: center; /* Center items vertically */; /* Adjust as necessary *//* Adjust the max-width to control the size */
+  flex: 1; 
+  color: #fff;
+  border: 1px solid #ffffffd7;
+  background-color: transparent;
+  border-radius: 5px;
+   padding: 5px;
+  }
+  .banner-icon1{
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Adjust as necessary */
+  /* Adjust the max-width to control the size */
+    flex: 1; 
+    color: #fff;
+    border: 1px solid #ffffffd7;
+    background-color: transparent;
+    border-radius: 5px;
+   padding: 5px;
+
+  }
+ .banner-icon>img{
+    max-width: 50px; /* Adjust based on your requirement */
+    height: auto;
+    color: #fff;
+   
+ }
+ .title{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px !important;
+    justify-content: center; 
+    margin: 0;
+    text-align: center;
+ }
+  .banner-button {
+    background-color: #628225;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+  .call-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #628225;
+  }
+  
+  .banner-phone {
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .banner-description {
+    padding: 0px;
+    color: #fff;
+  }
+  
+  .banner-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+
+
+  .phone-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .phone-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Assuming white background for the circle */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .phone-text {
+    color: #ffffff; /* Assuming text color is white */
+  }
+  .list-data2> .hed{
+    font-size: 15px;
+    font-weight: 700;
+    color: #202020;
+  }
+  .list-data2>.text{
+    font-size: 15px;
+    font-weight: 500;
+    color: #202020;
+  }
+
+  

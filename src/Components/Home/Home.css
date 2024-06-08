@@ -1,0 +1,96 @@
+.home-sec-first-text-design{
+    font-size: 48px;
+    color: #FFB800;
+    font-weight: 700;
+}
+.ser ,
+.cleaning{
+    font-size: 48px;
+    color: #628225;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.sectionhome-list-div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sectionhome-list-div li {
+    margin-bottom: 10px;
+    padding-top: 10px; /* Adjust as needed */
+}
+
+.sectionhome-list-div >div {
+    display: flex;
+    align-items: center;
+}
+.sectionhome-list-div img {
+    margin-right: 10px; /* Adjust as needed */
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+}
+.sectionhome-list-div2 ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+.sectionhome-list-div2 li {
+    margin-bottom: 5px;
+    padding-top:2px; /* Adjust as needed */
+}
+
+.sectionhome-list-div2 >div {
+    display: flex;
+    align-items: center;
+}
+.sectionhome-list-div2 img {
+    margin-top: 5px;
+    margin-right: 10px; /* Adjust as needed */
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+}
+.sec-div3-home{
+    background-color: #fff;
+}
+.sec-div3-inside-data{
+    margin-left: -40px;
+}
+.home-sec-div4 {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.17); 
+    padding: 20px 30px;
+    width:25% ;
+    border-radius: 10px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 63%;
+ /* Adjust gradient colors and opacity */
+    padding: 20px;
+    left: 14%;
+    background-color: white ;
+    padding: 5px;
+    width: 73%;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Transition opacity and transform */
+    transform: translateY(100%); /* Initially position below the image */
+    box-sizing: border-box;
+}
+.image-container:hover .overlay {
+    opacity: 1;
+    transform: translateY(0); /* Slide up when hovered */
+}
+.card-how-to-book{
+    border: 0px !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px !important;
+}
+
+
