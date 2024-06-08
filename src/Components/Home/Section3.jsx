@@ -5,7 +5,7 @@ import sec2secimg from '../../../public/assets/kingClean (17).png';
 export default function Section3() {
     return (
         <>
-            <Row style={{ backgroundImage: `url(${bgimg})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }} className='py-3 d-flex align-items-center justify-content-center px-0' >
+            <Row style={{ backgroundImage: `url(${bgimg})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }} className=' d-flex align-items-center justify-content-center px-0 pt-4' >
                 <Col md={5} xl={5} lg={5} xxl={5}>
                     <h2 className='hed2' style={{color:"#4B4E47"}}>Hire the  <span style={{color:"#628225"}}>Best Office
                     Cleaning Services  Melbournehg</span></h2>

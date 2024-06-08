@@ -124,6 +124,8 @@ export default function Section1(){
               </p>
             </Col>
           </Row>
+
+          
           <Row  className='sec-div3-home  mb-3 py-3'>
             <Col xs={2}  className="d-flex align-items-center">
               <img src={sec4img} alt="Icon"  className='img-fluid'/>

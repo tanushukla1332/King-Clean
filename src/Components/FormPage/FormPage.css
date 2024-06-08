@@ -1,0 +1,44 @@
+
+
+.skewer-box {
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 30px;
+   width: 700px;
+  
+  
+}
+.skewer-box label {
+    border-radius: 10px;
+  
+}
+.skewer-box input[type="text"],
+.skewer-box input[type="date"],
+.skewer-box select {
+  width: 280px;/* Adjusted width to accommodate padding and borders */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    border-radius: 6px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    outline: none; /* Remove outline */
+}
+.skewer-box select {
+    appearance: none; /* Remove default appearance for select */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000000' width='24px' height='24px'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E"); /* Add custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 20px;
+}
+
+.skewer-box .row {
+    margin-bottom: 15px; /* Increased margin for better separation */
+}
+

@@ -6,19 +6,18 @@ import bannerimg4 from '../../../public/assets/kingClean (26).png';
 import callImg from '../../../public/assets/kingClean (2).png';
 
 export default function Banner() {
-    const bannerStyle = {
-        backgroundImage: "url('./assets/kingClean (29).png')",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        height: 'auto', // Ensure the container has a height
-        maxwidth: "100%" // Ensure the container has a width
-    };
+  const bannerStyle = {
+    backgroundImage: "url('./assets/kingClean (29).png')",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    width: '100%',
+}
 
     return (
         <>
-         <div className="py-5 px-0" style={bannerStyle}>
-          <div className="banner-content ps-5">
+         <div className="py-5 p-0" style={bannerStyle}>
+          <div className="banner-content ps-5 px-0">
             <div className="banner-text  text-light col-md-5">
               <h1>Commercial Cleaning </h1>
               <h2> <span className='se'>Services</span><span className='me'> Melbourne</span></h2>

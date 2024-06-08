@@ -43,7 +43,7 @@ export default function Section5() {
           </h1>
         </div>
         {steps.map((step, index) => (
-          <Col key={index} md={2}  xl={2} lg={2} xxl={2} className="mb-4">
+          <Col key={index} md={2}  xl={2} lg={2} xxl={2} className="mb-4 d-flex justify-content-center align-items-center">
             <Card  className='text-center card-how-to-book'>
               <Card.Body>
                 <div className="d-flex align-items-center justify-content-center">

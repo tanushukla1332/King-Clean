@@ -16,8 +16,8 @@
 }
 
 .sectionhome-list-div li {
-    margin-bottom: 10px;
-    padding-top: 10px; /* Adjust as needed */
+    margin-bottom: 5px;
+    padding-top: 8px; /* Adjust as needed */
 }
 
 .sectionhome-list-div >div {
@@ -78,7 +78,7 @@
     background-color: white ;
     padding: 5px;
     width: 73%;
-    opacity: 0;
+
     transition: opacity 0.3s ease, transform 0.3s ease; /* Transition opacity and transform */
     transform: translateY(100%); /* Initially position below the image */
     box-sizing: border-box;
